@@ -2,7 +2,7 @@ import { AboutMe, Hero } from "./components";
 
 function App() {
   return (
-    <div>
+    <div className="poppins-regular">
       <Hero />
       <AboutMe />
     </div>
