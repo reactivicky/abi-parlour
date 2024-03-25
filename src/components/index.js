@@ -6,6 +6,7 @@ import Services from "./Services";
 import BookAppointment from "./BookAppointment";
 import BeautySolutions from "./BeautySolutions";
 import ReviewUs from "./ReviewUs";
+import Footer from "./Footer";
 
 export {
   Hero,
@@ -16,4 +17,5 @@ export {
   BookAppointment,
   BeautySolutions,
   ReviewUs,
+  Footer,
 };
