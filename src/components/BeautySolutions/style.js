@@ -5,6 +5,11 @@ export const Container = styled.div`
   background: #f9f9f9;
   padding: 3rem 10rem 0;
 
+  @media (max-width: 1074px) {
+    padding: 3rem 2rem 0;
+    height: auto;
+  }
+
   .mb-2 {
     margin-bottom: 1rem;
   }
@@ -17,6 +22,10 @@ export const TextContainer = styled.div`
   border-radius: 0.5rem;
   position: relative;
   top: -100px;
+
+  @media (max-width: 1074px) {
+    padding: 2rem;
+  }
 `;
 
 export const SectionHeading = styled.h3`
@@ -30,6 +39,10 @@ export const CardContainer = styled.div`
   width: 100%;
   position: relative;
   top: -40px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 export const Card = styled.div`

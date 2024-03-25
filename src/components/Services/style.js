@@ -7,11 +7,19 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 1200px) {
+    height: auto;
+    padding: 0 2rem 2rem;
+  }
 `;
 
 export const TextContainer = styled.div`
   text-align: center;
   margin: 3rem 0 5rem;
+  @media (max-width: 1200px) {
+    margin: 3rem 0 2rem;
+  }
 `;
 
 export const SectionHeading = styled.h2``;
@@ -21,6 +29,10 @@ export const CardContainer = styled.div`
   justify-content: center;
   width: 100%;
   gap: 1rem;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
 `;
 export const Card = styled.div`
   text-align: center;

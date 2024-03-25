@@ -6,6 +6,11 @@ export const Container = styled.div`
   padding: 0 10rem;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1074px) {
+    padding: 0 2rem 3rem;
+    height: auto;
+  }
 `;
 
 export const TextBlock = styled.div`
@@ -36,4 +41,8 @@ export const P = styled.p`
 export const BtnContainer = styled.div`
   display: flex;
   gap: 2rem;
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+  }
 `;

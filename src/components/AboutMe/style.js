@@ -7,6 +7,12 @@ export const Container = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
   align-items: center;
+
+  @media (max-width: 1074px) {
+    display: block;
+    padding: 5rem 2rem 3rem;
+    height: auto;
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -28,6 +34,10 @@ export const ImageContainer = styled.div`
   div:nth-of-type(even) {
     bottom: -20px;
   }
+
+  @media (max-width: 1074px) {
+    display: none;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -37,6 +47,9 @@ export const TextContainer = styled.div`
 
   .mb-2 {
     margin-bottom: 2rem;
+    @media (max-width: 1074px) {
+      margin-bottom: 1rem;
+    }
   }
 `;
 

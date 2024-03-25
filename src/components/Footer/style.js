@@ -7,6 +7,10 @@ export const Container = styled.div`
   justify-content: flex-end;
   align-items: center;
   padding: 0 10rem;
+
+  @media (max-width: 1074px) {
+    justify-content: center;
+  }
 `;
 
 export const UpButton = styled.button`

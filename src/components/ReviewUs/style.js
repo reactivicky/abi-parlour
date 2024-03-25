@@ -6,6 +6,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 1074px) {
+    padding: 3rem 2rem 3rem;
+    height: auto;
+  }
 `;
 
 export const SectionHeading = styled.h2`
