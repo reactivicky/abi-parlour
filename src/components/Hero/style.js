@@ -1,15 +1,51 @@
 import styled from "@emotion/styled";
+import brideImage from "../../assets/bride.webp";
 
 export const Container = styled.div`
   height: 80vh;
-  background: #121c28;
   padding: 0 10rem;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(
+      to bottom,
+      rgba(18, 28, 40, 0.8),
+      rgba(255, 255, 255, 0)
+    ),
+    url(${brideImage});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  @media (min-width: 1074px) {
+    .curve {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+
+    .curve svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 91px;
+    }
+
+    .curve .shape-fill {
+      fill: #ffffff;
+    }
+  }
 
   @media (max-width: 1074px) {
     padding: 0 2rem 3rem;
     height: auto;
+
+    .curve {
+      display: none;
+    }
   }
 `;
 
@@ -21,7 +57,8 @@ export const TextBlock = styled.div`
 `;
 
 export const H3 = styled.h3`
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 `;
 
 export const H2 = styled.h2`
@@ -30,7 +67,7 @@ export const H2 = styled.h2`
 `;
 
 export const H1 = styled.h1`
-  text-transform: uppercase;
+  font-size: 3rem;
 `;
 
 export const P = styled.p`

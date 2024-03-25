@@ -4,10 +4,35 @@ export const Container = styled.div`
   height: 80vh;
   background: #f9f9f9;
   padding: 3rem 10rem 0;
+  position: relative;
+
+  .curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .curve svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 40px;
+  }
+
+  .curve .shape-fill {
+    fill: #ffffff;
+  }
 
   @media (max-width: 1074px) {
     padding: 3rem 2rem 0;
     height: auto;
+
+    .curve {
+      display: none;
+    }
   }
 
   .mb-2 {

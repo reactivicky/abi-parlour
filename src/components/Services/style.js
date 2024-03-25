@@ -7,6 +7,28 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+
+  .curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .curve svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 40px;
+  }
+
+  .curve .shape-fill {
+    fill: #ffffff;
+  }
 
   @media (max-width: 1200px) {
     height: auto;
@@ -16,7 +38,7 @@ export const Container = styled.div`
 
 export const TextContainer = styled.div`
   text-align: center;
-  margin: 3rem 0 5rem;
+  margin: 4rem 0 5rem;
   @media (max-width: 1200px) {
     margin: 3rem 0 2rem;
   }

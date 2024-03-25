@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 const StyledButton = styled.button`
   background-color: ${({ variant }) =>
-    variant === "primary" ? "#d97c6b" : "transparent"};
+    variant === "primary" ? "#121c28" : "transparent"};
   color: white;
   padding: 0.5rem 1.5rem;
   text-transform: uppercase;
