@@ -5,7 +5,10 @@ const StyledButton = styled.button`
     variant === "primary" ? "#d97c6b" : "transparent"};
   color: white;
   padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
   border-radius: 0.2rem;
+  align-self: flex-start;
+  cursor: pointer;
   border: ${({ variant }) =>
     variant === "secondary" ? "1px solid white" : "none"};
 `;

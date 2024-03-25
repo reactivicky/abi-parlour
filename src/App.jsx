@@ -1,9 +1,10 @@
-import { Hero } from "./components";
+import { AboutMe, Hero } from "./components";
 
 function App() {
   return (
     <div>
       <Hero />
+      <AboutMe />
     </div>
   );
 }
