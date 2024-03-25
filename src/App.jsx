@@ -1,10 +1,11 @@
-import { AboutMe, Hero } from "./components";
+import { AboutMe, Hero, Services } from "./components";
 
 function App() {
   return (
     <div className="poppins-regular">
       <Hero />
       <AboutMe />
+      <Services />
     </div>
   );
 }
