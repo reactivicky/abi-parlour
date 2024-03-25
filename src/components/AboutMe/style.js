@@ -22,10 +22,10 @@ export const ImageContainer = styled.div`
     position: relative;
   }
 
-  div:nth-child(odd) {
+  div:nth-of-type(odd) {
     top: -20px;
   }
-  div:nth-child(even) {
+  div:nth-of-type(even) {
     bottom: -20px;
   }
 `;

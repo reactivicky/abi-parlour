@@ -1,12 +1,19 @@
-import { AboutMe, Hero, Services, BookAppointment } from "./components";
+import {
+  AboutMe,
+  Hero,
+  Services,
+  BookAppointment,
+  BeautySolutions,
+} from "./components";
 
 function App() {
   return (
-    <div className="poppins-regular">
+    <div className="roboto-regular">
       <Hero />
       <AboutMe />
       <Services />
       <BookAppointment />
+      <BeautySolutions />
     </div>
   );
 }
