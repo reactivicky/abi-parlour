@@ -12,6 +12,12 @@ export const List = styled.ul`
   list-style: none;
   gap: 3rem;
 
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   @media (max-width: 1074px) {
     display: none;
   }

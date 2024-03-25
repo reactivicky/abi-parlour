@@ -1,4 +1,5 @@
 import { List, Nav } from "./style";
+import { FaPhone } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,9 @@ const Navbar = () => {
         <li>Book Online</li>
         <li>Portfolio</li>
         <li>Contact</li>
-        <li>+91 9342098201</li>
+        <li>
+          <FaPhone /> +91 9342098201
+        </li>
       </List>
     </Nav>
   );

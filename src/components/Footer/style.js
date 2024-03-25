@@ -20,4 +20,6 @@ export const UpButton = styled.button`
   height: 40px;
   width: 40px;
   cursor: pointer;
+  display: grid;
+  place-items: center;
 `;

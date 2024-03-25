@@ -6,6 +6,9 @@ import {
   SectionHeading,
   TextContainer,
 } from "./style";
+import { GiGlobeRing, GiLipstick, GiPhotoCamera } from "react-icons/gi";
+import { FaBrush } from "react-icons/fa";
+import { ImScissors } from "react-icons/im";
 
 const Services = () => {
   return (
@@ -17,6 +20,7 @@ const Services = () => {
 
       <CardContainer>
         <Card>
+          <GiGlobeRing />
           <CardTitle>Bridal</CardTitle>
           <p>
             Makeup services for brides. Services include under eye treatment,
@@ -24,6 +28,7 @@ const Services = () => {
           </p>
         </Card>
         <Card>
+          <FaBrush />
           <CardTitle>Air-Brush</CardTitle>
           <p>
             All day wear, even coverage done with an airbrush tool. Matte
@@ -31,10 +36,12 @@ const Services = () => {
           </p>
         </Card>
         <Card>
+          <ImScissors />
           <CardTitle>Makeup Class</CardTitle>
           <p>1hr session face-to-face or via ZOOM.</p>
         </Card>
         <Card>
+          <GiLipstick />
           <CardTitle>Special Events</CardTitle>
           <p>
             Makeup for any occasion. Applied with brushes and sponges. Lashes
@@ -42,6 +49,7 @@ const Services = () => {
           </p>
         </Card>
         <Card>
+          <GiPhotoCamera />
           <CardTitle>Production</CardTitle>
           <p>
             Makeup services that run for long periods of time and typically need

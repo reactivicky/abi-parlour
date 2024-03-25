@@ -6,15 +6,22 @@ import {
   ReviewImage,
   SectionHeading,
 } from "./style";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const ReviewUs = () => {
   return (
     <Container>
       <SectionHeading>Review Us</SectionHeading>
       <BtnContainer>
-        <Btn></Btn>
-        <Btn></Btn>
-        <Btn></Btn>
+        <Btn>
+          <FaFacebook />
+        </Btn>
+        <Btn>
+          <FaInstagram />
+        </Btn>
+        <Btn>
+          <FaYoutube />
+        </Btn>
       </BtnContainer>
 
       <ReviewImage />

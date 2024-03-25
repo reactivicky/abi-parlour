@@ -30,6 +30,8 @@ export const Btn = styled.button`
   background-color: transparent;
   border-radius: 40%;
   cursor: pointer;
+  display: grid;
+  place-items: center;
 `;
 
 export const ReviewImage = styled.div`
