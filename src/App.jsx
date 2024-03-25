@@ -4,6 +4,7 @@ import {
   Services,
   BookAppointment,
   BeautySolutions,
+  ReviewUs,
 } from "./components";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <BookAppointment />
       <BeautySolutions />
+      <ReviewUs />
     </div>
   );
 }
