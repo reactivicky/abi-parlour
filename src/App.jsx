@@ -1,4 +1,4 @@
-import { AboutMe, Hero, Services } from "./components";
+import { AboutMe, Hero, Services, BookAppointment } from "./components";
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <Hero />
       <AboutMe />
       <Services />
+      <BookAppointment />
     </div>
   );
 }
