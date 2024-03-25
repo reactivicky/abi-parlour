@@ -1,4 +1,8 @@
 import styled from "@emotion/styled";
+import Bride1 from "../../assets/bride1.webp";
+import Bride2 from "../../assets/bride2.webp";
+import Bride3 from "../../assets/bride3.webp";
+import Bride4 from "../../assets/bride4.webp";
 
 export const Container = styled.div`
   height: 80vh;
@@ -26,6 +30,27 @@ export const ImageContainer = styled.div`
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
+  }
+
+  div:nth-of-type(1) {
+    background-image: url(${Bride1});
+    background-size: cover;
+    background-position: center;
+  }
+  div:nth-of-type(2) {
+    background-image: url(${Bride2});
+    background-size: cover;
+    background-position: center;
+  }
+  div:nth-of-type(3) {
+    background-image: url(${Bride3});
+    background-size: cover;
+    background-position: center;
+  }
+  div:nth-of-type(4) {
+    background-image: url(${Bride4});
+    background-size: cover;
+    background-position: center;
   }
 
   div:nth-of-type(odd) {
