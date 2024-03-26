@@ -82,4 +82,6 @@ export const SectionName = styled.h3`
   text-transform: uppercase;
 `;
 
-export const Heading = styled.h2``;
+export const Heading = styled.h2`
+  font-size: 2.5rem;
+`;

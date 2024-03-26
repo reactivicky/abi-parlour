@@ -68,6 +68,10 @@ export const H2 = styled.h2`
 
 export const H1 = styled.h1`
   font-size: 3rem;
+
+  @media (max-width: 500px) {
+    line-height: 1.3;
+  }
 `;
 
 export const P = styled.p`

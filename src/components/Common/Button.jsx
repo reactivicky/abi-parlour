@@ -9,12 +9,21 @@ const StyledButton = styled.button`
   border-radius: 0.2rem;
   align-self: flex-start;
   cursor: pointer;
+  transition: all 0.1s ease-in;
   border: ${({ variant }) =>
     variant === "secondary" ? "1px solid white" : "none"};
+
+  :hover {
+    scale: 1.05;
+  }
 `;
 
-const Button = ({ variant = "primary", children }) => {
-  return <StyledButton variant={variant}>{children}</StyledButton>;
+const Button = ({ variant = "primary", children, className }) => {
+  return (
+    <StyledButton variant={variant} className={className}>
+      {children}
+    </StyledButton>
+  );
 };
 
 export default Button;

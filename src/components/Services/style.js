@@ -44,7 +44,9 @@ export const TextContainer = styled.div`
   }
 `;
 
-export const SectionHeading = styled.h2``;
+export const SectionHeading = styled.h2`
+  font-size: 2.5rem;
+`;
 
 export const CardContainer = styled.div`
   display: flex;

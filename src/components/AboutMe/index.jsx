@@ -17,8 +17,10 @@ const AboutMe = () => {
         <div></div>
       </ImageContainer>
       <TextContainer>
-        <SectionName>About Me</SectionName>
-        <Heading>My name is Abirami</Heading>
+        <SectionName className="roboto-light">About Me</SectionName>
+        <Heading className="dancing-script-bold">
+          My name is Balaabirami
+        </Heading>
         <p>
           Since I can remember, I was always infatuated with makeup and beauty.
           In school, I was always that girl who would do her friend&apos;s hair

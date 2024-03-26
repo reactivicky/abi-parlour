@@ -27,14 +27,16 @@ const Services = () => {
         </svg>
       </div>
       <TextContainer>
-        <SectionHeading>Services For Every Occasion</SectionHeading>
+        <SectionHeading className="dancing-script-bold">
+          Services For Every Occasion
+        </SectionHeading>
         <p>Let&apos;s wake up your makeup look!</p>
       </TextContainer>
 
       <CardContainer>
         <Card>
           <GiGlobeRing />
-          <CardTitle>Bridal</CardTitle>
+          <CardTitle className="dancing-script-bold">Bridal</CardTitle>
           <p>
             Makeup services for brides. Services include under eye treatment,
             airbrush or traditional makeup and eyelashes.
@@ -42,7 +44,7 @@ const Services = () => {
         </Card>
         <Card>
           <FaBrush />
-          <CardTitle>Air-Brush</CardTitle>
+          <CardTitle className="dancing-script-bold">Air-Brush</CardTitle>
           <p>
             All day wear, even coverage done with an airbrush tool. Matte
             finish.
@@ -50,12 +52,12 @@ const Services = () => {
         </Card>
         <Card>
           <ImScissors />
-          <CardTitle>Makeup Class</CardTitle>
+          <CardTitle className="dancing-script-bold">Makeup Class</CardTitle>
           <p>1hr session face-to-face or via ZOOM.</p>
         </Card>
         <Card>
           <GiLipstick />
-          <CardTitle>Special Events</CardTitle>
+          <CardTitle className="dancing-script-bold">Special Events</CardTitle>
           <p>
             Makeup for any occasion. Applied with brushes and sponges. Lashes
             not included.
@@ -63,7 +65,7 @@ const Services = () => {
         </Card>
         <Card>
           <GiPhotoCamera />
-          <CardTitle>Production</CardTitle>
+          <CardTitle className="dancing-script-bold">Production</CardTitle>
           <p>
             Makeup services that run for long periods of time and typically need
             touch ups through the process.
