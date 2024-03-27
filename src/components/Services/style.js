@@ -1,9 +1,9 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  height: 60vh;
+  height: auto;
   background-color: #f9f9f9;
-  padding: 0 10rem;
+  padding: 0 10rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;

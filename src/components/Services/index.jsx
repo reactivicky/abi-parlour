@@ -10,6 +10,8 @@ import { GiGlobeRing, GiLipstick, GiPhotoCamera } from "react-icons/gi";
 import { FaBrush } from "react-icons/fa";
 import { ImScissors } from "react-icons/im";
 
+const ICON_SIZE = 60;
+
 const Services = () => {
   return (
     <Container>
@@ -35,7 +37,7 @@ const Services = () => {
 
       <CardContainer>
         <Card>
-          <GiGlobeRing />
+          <GiGlobeRing size={ICON_SIZE} />
           <CardTitle className="dancing-script-bold">Bridal</CardTitle>
           <p>
             Makeup services for brides. Services include under eye treatment,
@@ -43,7 +45,7 @@ const Services = () => {
           </p>
         </Card>
         <Card>
-          <FaBrush />
+          <FaBrush size={ICON_SIZE} />
           <CardTitle className="dancing-script-bold">Air-Brush</CardTitle>
           <p>
             All day wear, even coverage done with an airbrush tool. Matte
@@ -51,12 +53,12 @@ const Services = () => {
           </p>
         </Card>
         <Card>
-          <ImScissors />
+          <ImScissors size={ICON_SIZE} />
           <CardTitle className="dancing-script-bold">Makeup Class</CardTitle>
           <p>1hr session face-to-face or via ZOOM.</p>
         </Card>
         <Card>
-          <GiLipstick />
+          <GiLipstick size={ICON_SIZE} />
           <CardTitle className="dancing-script-bold">Special Events</CardTitle>
           <p>
             Makeup for any occasion. Applied with brushes and sponges. Lashes
@@ -64,7 +66,7 @@ const Services = () => {
           </p>
         </Card>
         <Card>
-          <GiPhotoCamera />
+          <GiPhotoCamera size={ICON_SIZE} />
           <CardTitle className="dancing-script-bold">Production</CardTitle>
           <p>
             Makeup services that run for long periods of time and typically need
