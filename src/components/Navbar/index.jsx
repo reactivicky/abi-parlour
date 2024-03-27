@@ -12,7 +12,7 @@ const Navbar = () => {
         <li>Portfolio</li>
         <li>Contact</li>
         <li>
-          <FaPhone /> +91 9342098201
+          <FaPhone /> +91 9952515897
         </li>
       </List>
     </Nav>
