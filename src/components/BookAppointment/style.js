@@ -1,13 +1,13 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  height: 20vh;
   background: #d96a73;
-  padding: 3rem 10rem 0;
+  padding: 3rem 10rem 3rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   @media (max-width: 1074px) {
-    padding: 3rem 2rem 0;
+    padding: 3rem 2rem 3rem;
   }
 
   @media (max-width: 680px) {

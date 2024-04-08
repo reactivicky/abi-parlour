@@ -30,7 +30,7 @@ const ReviewUs = () => {
         the best! Highly recommended!
       </Review>
       <p className="roboto-bold">
-        <i>Debbit T Brewton</i>
+        <i>Bala Saraswathi</i>
       </p>
     </Container>
   );

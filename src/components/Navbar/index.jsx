@@ -1,10 +1,11 @@
-import { List, Nav } from "./style";
+import { List, Nav, LogoContainer } from "./style";
 import { FaPhone } from "react-icons/fa";
+import Logo from "../../assets/logo.svg";
 
 const Navbar = () => {
   return (
     <Nav>
-      <div>Logo</div>
+      <LogoContainer><img src={Logo} /></LogoContainer>
       <List>
         <li>Home</li>
         <li>About</li>

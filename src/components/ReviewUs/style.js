@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
+import Bride3 from "../../assets/bride3.webp";
 
 export const Container = styled.div`
-  height: 50vh;
-  padding: 3rem 10rem 0;
+  padding: 1.5rem 10rem 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +28,7 @@ export const Btn = styled.button`
   width: 35px;
   border: 1px solid #d97c6b;
   background-color: transparent;
-  border-radius: 40%;
+  border-radius: 50%;
   cursor: pointer;
   display: grid;
   place-items: center;
@@ -40,6 +40,9 @@ export const ReviewImage = styled.div`
   border: 1px solid #d97c6b;
   border-radius: 50%;
   margin-bottom: 1rem;
+  background-image: url(${Bride3});
+  background-size: cover;
+  background-position: center;
 `;
 
 export const Review = styled.p`

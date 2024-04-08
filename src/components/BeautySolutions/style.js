@@ -42,9 +42,6 @@ export const Container = styled.div`
 export const TextContainer = styled.div`
   text-align: center;
   margin: 0 0 5rem;
-  @media (max-width: 1200px) {
-    margin: 3rem 0 2rem;
-  }
 `;
 
 export const SectionHeading = styled.h3`

@@ -13,7 +13,7 @@ const BeautySolutions = () => {
   return (
     <Container>
       <TextContainer className="clr_white">
-        <SectionHeading  className="dancing-script-bold">Book Your Appointment Now</SectionHeading>
+        <SectionHeading  className="dancing-script-bold">Beauty Solutions</SectionHeading>
         <p>
           All our services are down below. <b>Contact</b> us if you have any questions!
         </p>
