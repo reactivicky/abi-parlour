@@ -1,9 +1,8 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  height: 80vh;
-  background: #f9f9f9;
-  padding: 3rem 10rem 0;
+  background: #121c28;
+  padding: 3rem 10rem 3rem;
   position: relative;
 
   .curve {
@@ -41,21 +40,15 @@ export const Container = styled.div`
 `;
 
 export const TextContainer = styled.div`
-  background-color: #4b5765;
   text-align: center;
-  padding: 4rem;
-  border-radius: 0.5rem;
-  position: relative;
-  top: -100px;
-
-  @media (max-width: 1074px) {
-    padding: 2rem;
+  margin: 0 0 5rem;
+  @media (max-width: 1200px) {
+    margin: 3rem 0 2rem;
   }
 `;
 
 export const SectionHeading = styled.h3`
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
 `;
 
 export const CardContainer = styled.div`
