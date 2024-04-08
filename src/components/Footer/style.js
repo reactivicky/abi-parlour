@@ -15,11 +15,14 @@ export const Container = styled.div`
 
 export const UpButton = styled.button`
   background-color: white;
+  padding: 0;
   border: 1px solid white;
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
   cursor: pointer;
   display: grid;
   place-items: center;
+
+  :hover {
+    scale: 1.1;
+  }
 `;
