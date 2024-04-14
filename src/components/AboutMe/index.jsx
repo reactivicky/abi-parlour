@@ -5,7 +5,7 @@ import {
   SectionName,
   Heading,
 } from "./style";
-import Button from "../Common/Button";
+// import Button from "../Common/Button";
 
 const AboutMe = () => {
   return (
@@ -36,7 +36,7 @@ const AboutMe = () => {
           line one day. Who knows!
         </p>
 
-        <Button>Contact Me</Button>
+        {/* <Button>Contact Me</Button> */}
       </TextContainer>
     </Container>
   );

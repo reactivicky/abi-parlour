@@ -1,6 +1,6 @@
-import Button from "../Common/Button";
+// import Button from "../Common/Button";
 import Navbar from "../Navbar";
-import { Container, H2, TextBlock, H1, H3, P, BtnContainer } from "./style";
+import { Container, H2, TextBlock, H1, H3, P } from "./style";
 
 const Hero = () => {
   return (
@@ -14,10 +14,10 @@ const Hero = () => {
           Welcome to AV Bridal Makeover where everything is vibrant and chic.
           Book your makeup appointment today! I also offer some hairstyling
         </P>
-        <BtnContainer>
+        {/* <BtnContainer>
           <Button>Book Now</Button>
           <Button variant="secondary">Contact Now</Button>
-        </BtnContainer>
+        </BtnContainer> */}
       </TextBlock>
       <div className="curve">
         <svg
