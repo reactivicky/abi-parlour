@@ -32,18 +32,15 @@ const BeautySolutions = () => {
             <p>
               <i>Blow dry for any night out</i>
             </p>
-            <p>1hr 30min</p>
           </div>
           <div className="mb-2">
             <CardSubHeading className="roboto-bold">Flat Iron</CardSubHeading>
             <p>
               <i>Flat iron hair</i>
             </p>
-            <p>1hr 30min</p>
           </div>
           <div className="mb-2">
             <CardSubHeading className="roboto-bold">Soft Curls</CardSubHeading>
-            <p>1hr</p>
           </div>
         </Card>
 
@@ -53,19 +50,16 @@ const BeautySolutions = () => {
 
           <div className="mb-2">
             <CardSubHeading className="roboto-bold">Bridal</CardSubHeading>
-            <p>3hr</p>
           </div>
           <div className="mb-2">
             <CardSubHeading className="roboto-bold">
               Traditional Makeup
             </CardSubHeading>
-            <p>2hr</p>
           </div>
           <div className="mb-2">
             <CardSubHeading className="roboto-bold">
               Events, Groups
             </CardSubHeading>
-            <p>All Day</p>
           </div>
         </Card>
 
@@ -77,7 +71,6 @@ const BeautySolutions = () => {
             <CardSubHeading className="roboto-bold">
               Airbrush Makeup
             </CardSubHeading>
-            <p>3hr</p>
           </div>
           <div className="mb-2">
             <CardSubHeading className="roboto-bold">
@@ -86,7 +79,6 @@ const BeautySolutions = () => {
             <p>
               <i>With Lashes</i>
             </p>
-            <p>3hr</p>
           </div>
           <div className="mb-2">
             <CardSubHeading className="roboto-bold">
@@ -95,7 +87,6 @@ const BeautySolutions = () => {
             <p>
               <i>Beginners Course with Makeup Application</i>
             </p>
-            <p>1hr</p>
           </div>
         </Card>
       </CardContainer>
