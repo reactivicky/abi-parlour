@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import brideImage from "../../assets/bride.webp";
+import brideImageMobile from "../../assets/brideNew.webp";
 
 export const Container = styled.div`
   height: 80vh;
@@ -41,6 +42,14 @@ export const Container = styled.div`
 
   @media (max-width: 1074px) {
     padding: 0 2rem 3rem;
+    background: linear-gradient(
+        to bottom,
+        rgba(18, 28, 40, 0.8),
+        rgba(255, 255, 255, 0)
+      ),
+      url(${brideImageMobile});
+    background-position: center;
+    background-size: cover;
     height: auto;
 
     .curve {
