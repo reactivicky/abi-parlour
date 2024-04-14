@@ -14,7 +14,7 @@ const ICON_SIZE = 60;
 
 const Services = () => {
   return (
-    <Container>
+    <Container id="services">
       <div className="curve">
         <svg
           data-name="Layer 1"

@@ -21,10 +21,19 @@ export const List = styled.ul`
   list-style: none;
   gap: 3rem;
 
+  li a,
   li {
+    text-decoration: none;
     display: flex;
     align-items: center;
+    color: rgba(256, 256, 256, 0.8);
     gap: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+
+    :hover {
+      color: rgba(256, 256, 256, 1);
+    }
   }
 
   @media (max-width: 1074px) {

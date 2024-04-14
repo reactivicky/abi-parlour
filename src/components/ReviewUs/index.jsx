@@ -10,7 +10,7 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const ReviewUs = () => {
   return (
-    <Container>
+    <Container id="review">
       <SectionHeading>Review Us</SectionHeading>
       <BtnContainer>
         <Btn>

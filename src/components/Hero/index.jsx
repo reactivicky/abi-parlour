@@ -4,7 +4,7 @@ import { Container, H2, TextBlock, H1, H3, P } from "./style";
 
 const Hero = () => {
   return (
-    <Container className="clr_white">
+    <Container id="home" className="clr_white">
       <Navbar />
       <TextBlock>
         <H3 className="dancing-script-regular">Singaperumal Koil, Chennai</H3>

@@ -9,7 +9,7 @@ import {
 
 const AboutMe = () => {
   return (
-    <Container>
+    <Container id="about">
       <ImageContainer>
         <div></div>
         <div></div>
