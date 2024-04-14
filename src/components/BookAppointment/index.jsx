@@ -5,7 +5,7 @@ const BookAppointment = () => {
   return (
     <Container className="clr_white">
       <SectionHeading>Book Your Appointment Now</SectionHeading>
-      <Button variant="secondary">Book An Appointment</Button>
+      <Button variant="secondary">+91 9952515897</Button>
     </Container>
   );
 };
