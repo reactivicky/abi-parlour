@@ -25,7 +25,7 @@ const Navbar = () => {
           <a href="#review">Review</a>
         </li>
         <li>
-          <FaPhone /> +91 9952515897
+          <FaPhone /> +91 9342098201
         </li>
       </List>
     </Nav>
